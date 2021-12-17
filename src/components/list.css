@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .list {
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .list {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80%;
+  }
+}

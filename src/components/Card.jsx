@@ -1,4 +1,6 @@
 
+import "./card.css"
+
 export const Card = ({ person }) => {
     return(
         <div className="card">

@@ -1,3 +1,4 @@
+import "./list.css"
 
 import { Card } from "./Card";
 
