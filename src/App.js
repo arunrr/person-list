@@ -3,7 +3,7 @@ import "./App.css";
 import JohnDoe from "./images/john_doe.jpg";
 import JaneDoe from "./images/jane_doe.jpg";
 
-import { PersonList } from "./components/PersonList";
+import PersonList from "./components/PersonList";
 
 const person = [
   {

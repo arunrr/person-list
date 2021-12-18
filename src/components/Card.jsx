@@ -1,7 +1,8 @@
+import {string, shape } from 'prop-types';
 
 import "./card.css"
 
-export const Card = ({ person }) => {
+const Card = ({ person }) => {
     return(
         <div className="card">
             <div className="card__img">
@@ -17,3 +18,13 @@ export const Card = ({ person }) => {
         </div>
     );
 }
+
+Card.propTypes = {
+    person: shape({
+        img: string.isRequired,
+        name: string.isRequired,
+        details: string
+    })
+}
+
+export default Card;
